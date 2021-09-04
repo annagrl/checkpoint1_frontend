@@ -39,21 +39,21 @@ header {
     font-size: 15px; 
     padding-right: 250px;
     padding-left: 250px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     text-align: left;
     color: black;
     background-color: rgba(255, 255, 255, 0.411);
 }
 
 .img1{
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
+    position: sticky;
+   padding-top: 15px;
     width: 45px;
 }
 
 .img2{
-    position: fixed;
-    bottom: 20px;
-    right: 70px;
+    position: sticky;
+    padding-top: 15px;
     width: 45px;
 }
