@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap');
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/checkpoint1_frontend/img/semanadevela.jpg);
+    background-size: cover;
+    background-color:rgba(70, 65, 65, 0.205);
+    background-blend-mode: overlay;
+}
+
+main {
+    text-align: center;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 17px;
+    padding: 15px 150px;
+}
+
+header {
+    font-family: 'Shadows Into Light', cursive;
+    background-color: rgba(240, 240, 16, 0.555);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    position: static
+}
+
+.video {
+   padding-top: 30px;
+   padding-bottom: 30px; 
+}
+.lista{
+    font-size: 15px; 
+    padding-right: 250px;
+    padding-left: 250px;
+    text-align: left;
+    color: white;
+}
+
+.img1{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 45px;
+}
+
+.img2{
+    position: fixed;
+    bottom: 20px;
+    right: 70px;
+    width: 45px;
+}
