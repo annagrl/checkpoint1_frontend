@@ -9,10 +9,14 @@
 }
 
 body {
+
     background-image: url(/checkpoint1_frontend/img/semanadevela.jpg);
     background-size: cover;
     background-color:rgba(70, 65, 65, 0.205);
     background-blend-mode: overlay;
+}
+
+a{ text-decoration:none;
 }
 
 main {
@@ -28,8 +32,17 @@ header {
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
-    position: static
+    position: static;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    color: white;
+    padding: 20px;
 }
+ 
 
 .video {
    padding-top: 30px;
@@ -57,3 +70,44 @@ header {
     padding-top: 15px;
     width: 45px;
 }
+ 
+   header ul{
+    display: flex;
+    gap: 5px;
+  }
+  
+  header ul li{
+    list-style-type: none;
+  }
+  
+  header li a{
+    color: white;
+    padding: 10px;
+    border-radius: 9px;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+  }
+  
+  header li a:hover{
+    background-color: rgb(245, 189, 6);
+    color: black;
+  }
+
+  label, option, select{
+    display: block;
+    
+}
+
+legend {
+  margin-bottom: 10px;
+}
+
+select{
+    margin: 0px auto 15px;
+}
+
+
+
+button{
+    margin: 2% 0px;
+}  

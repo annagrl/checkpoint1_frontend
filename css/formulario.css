@@ -1,0 +1,67 @@
+/*  @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    background: black;
+    color: white;
+    padding: 20px;
+  }
+
+  header ul{
+    display: flex;
+    gap: 5px;
+  }
+  
+  header ul li{
+    list-style-type: none;
+  }
+  
+  header li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 9px;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+  }
+  
+  header li a:hover{
+    background-color: rgb(245, 189, 6);
+    color: black;
+  }
+
+
+
+
+
+label, option, select{
+    display: block;
+    ;
+}
+
+select{
+    margin: 0px auto 15px;
+}
+
+
+
+button{
+    margin: 2% 0px;
+} */
