@@ -10,7 +10,7 @@
 
 body {
 
-    background-image: url(/checkpoint1_frontend/img/semanadevela.jpg);
+    background-image:url("../img/semanadevela.jpg");
     background-size: cover;
     background-color:rgba(70, 65, 65, 0.205);
     background-blend-mode: overlay;
@@ -43,6 +43,9 @@ header {
     padding: 20px;
 }
  
+h1 {
+  transform: scale(1.1);
+}
 
 .video {
    padding-top: 30px;

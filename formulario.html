@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/shorticon.PNG" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
     <title>Checkpoint II</title>
 </head>
 <body>
-    <header><h1>Conheca</h1>
+    <header><h1>Conheça</h1>
         <nav>
           <ul>
             <li><a href="index.html">Inicio</a></li>
@@ -29,7 +30,7 @@
                     <label for="email">Email:</label>
                     <input type="text" name="email" id="email" placeholder="Endereço de email">
                     <label for="email">Telefone:</label>
-                    <input type="telefone" name="telefone" id="telefone" placeholder="Digite seu Telefone">
+                    <input type="number" name="telefone" id="telefone" placeholder="Digite seu Telefone">
                     <label for="idade">Idade nascimento:</label>
                     <input type="date" name="telefone" id="telefone" placeholder="">
                 </fieldset>
@@ -51,11 +52,22 @@
                             <option value="jose">Praia de Santa Tereza</option>
                             <option value="Embu">Praia da Pedra do Sino</option>
                             <option value="jundiai">Mirante do Piúva</option>
-                            
-                        </optgroup>
+                            <option value="jabaquara">Praia do Jabaquara</option>
                     </select>
                 </fieldset>
-                <button type="submit">Registrar</button>>
+                <fieldset>
+                    <legend> Qual o seu propósito nesta viagem?</legend>
+                    <input type= "checkbox" id="turismo" name="turismo" checked>
+                    <label for="turismo">Turismo</label>
+                    <input type= "checkbox" id="trabalho" name="trabalho">
+                    <label for="trabalho">Trabalho</label>
+                    <input type= "checkbox" id="estudo" name="estudo">
+                    <label for="estudo">Estudo</label>
+                    <input type= "checkbox" id="residente" name="residente">
+                    <label for="residente">Residente</label>
+                    
+
+                <a href= "obrigado.html"> <input type="button" value= "Registrar">
                 <button type="Reset">Cancelar</button>
             </form>
         </section>
